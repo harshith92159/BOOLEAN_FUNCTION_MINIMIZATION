@@ -44,13 +44,15 @@ RegisterNumber:2407248
 **Output:**
 
 **Program F1:**
-'''
+
+
+```
 module logic1(a,b,c,d,f1);
  input a,b,c,d;
  output f1;
  assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
  endmodule
-''' 
+```
 **RTL realization**
 ![Screenshot 2024-11-19 185325](https://github.com/user-attachments/assets/3b0b321d-1126-41ab-9fc0-e0a542d17e79)
 
@@ -58,13 +60,15 @@ module logic1(a,b,c,d,f1);
 ![de ex2 1](https://github.com/user-attachments/assets/d569a2e6-ba87-4009-b4f9-9d1753baff6a)
 
 **Program F2:**
-'''
+
+
+```
 module logic3(w,x,y,z,f2);
  input w,x,y,z;
  output f2;
  assign f2=((~y & z)|( w & y )|(x & y));
  endmodule
-''' 
+```
 **RTL realization**
 ![de ex2 2](https://github.com/user-attachments/assets/8cf86964-ede7-4e96-8638-e5d6b4024671)
 
