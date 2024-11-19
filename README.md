@@ -53,10 +53,10 @@ module logic1(a,b,c,d,f1);
  assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
  endmodule
 ```
-**RTL realization**
+**RTL realization:**
 ![Screenshot 2024-11-19 185325](https://github.com/user-attachments/assets/3b0b321d-1126-41ab-9fc0-e0a542d17e79)
 
-**Timing Diagram**
+**Timing Diagram:**
 ![de ex2 1](https://github.com/user-attachments/assets/d569a2e6-ba87-4009-b4f9-9d1753baff6a)
 
 **Program F2:**
@@ -69,12 +69,12 @@ module logic3(w,x,y,z,f2);
  assign f2=((~y & z)|( w & y )|(x & y));
  endmodule
 ```
-**RTL realization**
+**RTL realization:**
 ![de ex2 2](https://github.com/user-attachments/assets/8cf86964-ede7-4e96-8638-e5d6b4024671)
 
-**Timing Diagram**
+**Timing Diagram:**
 ![de _ex2 2 ](https://github.com/user-attachments/assets/2a0d65ec-5b77-4831-8bc3-2a750d728579)
 
-
+**Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
